@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.head-class {
+    width: 1193px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-category {
+    margin-top: 45px;
+}
+.nav-list {
+    width: 550px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav-list i {
+    font-size: 18px;
+    color: #285193;
+}
+.list-follower {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0 10px 0 10px;
+    margin-left: 400px;
+}
+.list-follower i {
+    padding-right: 5px;
+}
+.follow-but {
+    width: 146px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.category {
+    width: 1151px;
+    min-height: 25px;
+    font-weight: 500px;
+    margin-left: 20px;
+}
+.list-category {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    
+}
+.list-category a {
+    text-decoration: none;
+    color: #515151;
+    font-weight: 500px;
+    display: inline-block;
+}
+.rec {
+    width: 1200px;
+    height: 99px;
+    margin-top: 40px;
+}
+.stats {
+    width: 1220px;
+    height: 140px;
+    background-color: #F6F6F9;
+}
+.list-stats {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding-top: 20px;
+    list-style: none;
+}
+.iconcov {
+    width: 315px;
+    height: 100px;
+    border-right: 3px solid #EB5569;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+.iconcov img {
+    margin-top: 14px;
+}
+.suck {
+    width: 305px;
+    height: 100px;
+    border-right: 2px solid #F4CCD1;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    color: #DB0000;
+}
+
+.num-suck {
+    color: black;
+    font-weight: 500px;
+}
+
+.repaired {
+    width: 305px;
+    height: 100px;
+    border-right: 2px solid #F4CCD1;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    color: #15CE3D;
+}
+.num-rep {
+    color: black;
+    font-weight: 400px;
+}
+.dead {
+    width: 200px;
+    height: 120px;
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.num-dead {
+    color: black;
+    font-weight: 400px;
+}
